@@ -39,10 +39,18 @@ public class IntroJAVA {
                 +(metros*100)+"(cm)\n"+
                 +(metros*1000)+"(mm)\n"+
                 +(metros/1000)+"(km)");
+        
     }
 
     private static void covertepesos() {
-
+        float peso;
+        System.out.println("insira um peso em kg");
+        peso = ler.nextFloat();
+        System.out.println(peso+"(kg) equivale a:\n"+
+                +(peso*10)+"(dg)\n"+
+                +(peso*100)+"(cg)\n"+
+                +(peso*1000)+"(g)\n"+
+                +(peso/1000)+"(ton)");
     }
 
     private static void convertemoedas() {
